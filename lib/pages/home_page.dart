@@ -65,6 +65,52 @@ class _HomepageState extends State<Homepage> {
         title: const Text('Home'),
         centerTitle: true,
       ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage('assets/Ruvu_River.jpg'),
+                  fit: BoxFit.fitWidth,
+                ),
+              ),
+              child: Stack(
+                children: [
+                  Positioned(
+                    bottom: 8.0,
+                    left: 4.0,
+                    child: Text(
+                      "Ruvu Tracking App",
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                  )
+                ],
+              ),
+            ),
+            ListTile(
+              leading: const Icon(Icons.home),
+              title: const Text("Home"),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.account_box),
+              title: const Text("About"),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.grid_3x3_outlined),
+              title: const Text("Products"),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: const Icon(Icons.contact_mail),
+              title: const Text("Contact"),
+              onTap: () {},
+            )
+          ],
+        ),
+      ),
       body: GoogleMap(
         initialCameraPosition: const CameraPosition(
           target: _ruvuCoordinate,
