@@ -49,6 +49,10 @@ After the app build completes, your device displays your app
 - Complaints Tracking
 
 
+## Related Projects
+
+EcoAlert uses a similar way to track forests in Moldova
+
 
 ## Feedback
 
