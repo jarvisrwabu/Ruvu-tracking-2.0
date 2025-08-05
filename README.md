@@ -37,7 +37,7 @@ As per Tanzania rules, a 60 meter buffer was placed on each sides of the bank us
 
    6. Wait for the app to launch.
 
-    You can watch the launch progress in the Debug Console view.
+You can watch the launch progress in the Debug Console view...
 
 After the app build completes, your device displays your app
 
