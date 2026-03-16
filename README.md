@@ -12,13 +12,6 @@ The Ruvu river Tracking App is a mobile application designed for the purpose of 
 **Server-side:** Supabase 
 
 
-## Demo
-
-This is a short demo of the mobile app. The final coordinate selected is the last location of draggable marker whose default position is the live location
-
-![gifdemo](https://github.com/jarvisrwabu/Ruvu-tracking-2.0/blob/main/Readme%20files/XRecorder_Edited_24092024_170711.gif?raw=true)
-
-
 ## River Buffering
 As per Tanzania rules, a 60 meter buffer was placed on each sides of the bank using QGIS, then the polygon was added using the GoogleMaps Widget
 ![buffer](https://github.com/jarvisrwabu/Ruvu-tracking-2.0/blob/main/Readme%20files/buffer.jpeg?raw=true)
